@@ -32,7 +32,7 @@ public class CurrentAccount extends BankAccount{
             }
 
             //if we can create then we call rearrange
-             rearrangeLicenseId(tradeLicenseId);
+            System.out.println(rearrangeLicenseId(tradeLicenseId));
 
         }
         else{
